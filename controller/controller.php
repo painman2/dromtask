@@ -29,11 +29,6 @@ if(isset($_SESSION["tempsess"])){
                   'show' => 'All');
 }
 
-//print_arr($_POST);
-//exit();
-//print_arr($_GET);
-//exit();
-
 // getting a dynamic part of the template
 $view = empty($_GET['view']) ? 'auth' : $_GET['view'];
 // checking flag of user authorization
